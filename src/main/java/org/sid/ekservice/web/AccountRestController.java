@@ -10,6 +10,8 @@ import java.util.NoSuchElementException;
 import java.util.UUID;
 
 @RestController
+
+@RequestMapping("/api")
 public class AccountRestController {
 
     // @Autowired
