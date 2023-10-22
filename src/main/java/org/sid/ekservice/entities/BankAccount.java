@@ -18,7 +18,7 @@ public class BankAccount {
     @Id
     private String id;
     private Date createdAt;
-    private double balance;         //Solde
+    private Double balance;         //Solde
     private String currency;            //devise
     @Enumerated(EnumType.STRING)
     private AccountType type;
